@@ -408,10 +408,7 @@ else:
     # plt.show()
 
 
-
-
-
-# # Step 3: Close the Database Connection
-# if connection and connection.is_connected():
-#     connection.close()
-#     print("Database connection closed.")
+    # Step 3: Close the Database Connection
+    if connection and connection.is_connected():
+        connection.close()
+        print("Database connection closed.")
